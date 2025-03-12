@@ -15,12 +15,11 @@ Here are some example queries that the Payload user may want to perform, against
 
 The goal is to produce a CSV export that is highly legible, which looks something like this:
 
-| Request ID    | Request Total       | Requested By        | Line Item Title    | Line Item Description description    | Line Number      | Line Item Cost   |
-| ------------- | ------------------- | ------------------- | ------------------ | ------------------------------------ | ---------------- | ---------------- |
-| 13            | 3000                | Sean                | MacBook Pro - 14   | MacBook Pro                          | 14               | 1000             |
-| 13            | 3000                | Sean                | Plant - 14         | Plant                                | 14               | 1000             |
-| 13            | 3000                | Sean                | Plant - 14         | Plant                                | 14               | 1000             |
-| ------------- | ------------------- | ------------------- | ------------------ | ------------------------------------ | ---------------- | ---------------- |
+| Request ID | Request Total | Requested By | Line Item Title  | Line Item Description description | Line Number | Line Item Cost |
+| ---------- | ------------- | ------------ | ---------------- | --------------------------------- | ----------- | -------------- |
+| 13         | 3000          | Sean         | MacBook Pro - 14 | MacBook Pro                       | 14          | 1000           |
+| 13         | 3000          | Sean         | Plant - 14       | Plant                             | 14          | 1000           |
+| 13         | 3000          | Sean         | Plant - 14       | Plant                             | 14          | 1000           |
 
 ## Required, missing functionality
 
