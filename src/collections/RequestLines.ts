@@ -45,6 +45,13 @@ export const RequestLines: CollectionConfig = {
       //   mapTo: 'request.total',
       //   populate: false,
       // },
+
+      // A problem with all of this:
+      // if the UI were visible in the Edit view, and you change the data of the related field,
+      // then the field should reflect the new value....
+      // this could be difficult. Doable, but difficult.
+      // Nice-to-have? Solved in the future? Should this be a different field type altogether?
+      // James says "i don't like a new field type for this". Still need to define data shape...
       hooks: {
         afterRead: [
           () => {
