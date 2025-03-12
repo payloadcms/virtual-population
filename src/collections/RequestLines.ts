@@ -28,6 +28,9 @@ export const RequestLines: CollectionConfig = {
       name: 'requestTotal',
       type: 'number',
       virtual: true,
+      admin: {
+        hidden: true,
+      },
       // What if we could map virtuals to a different query?
       // On this same topic, could we extend `virtual` to populate data from a related collection,
       // and in that case, we handle the population, in a performant manner, for them?
@@ -54,6 +57,9 @@ export const RequestLines: CollectionConfig = {
       name: 'requestedBy',
       type: 'text',
       virtual: true,
+      admin: {
+        hidden: true,
+      },
       hooks: {
         afterRead: [
           () => {
